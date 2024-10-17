@@ -12,10 +12,10 @@ const Home = () => {
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
           <TextChange />
         </h1>
-        <p className="text-sm md:text-xl tracking-tight mb-4">
+        <p className="text-sm md:text-xl tracking-tight mt-3">
           Passionate about data analysis and full-stack development, with a keen interest in learning data structures and algorithms to enhance problem-solving skills. Continuously exploring new technologies to build impactful solutions.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 mt-5">
           <a href="#Footer">
             <button className="flex items-center text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
               <MdOutlineEmail size={20} className="mr-2" />
